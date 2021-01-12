@@ -1,0 +1,10 @@
+.home .home_top {
+  display: flex;
+  flex: 1;
+  /* justify-content: center; */
+}
+
+.home {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,94 @@
+.invitation {
+  flex: 0 33.3%;
+  padding: 10px;
+}
+
+.invitation .invitation_wrap {
+  height: 200px;
+  background-color: silver;
+}
+
+.invitation .invitation_wrap.disable_wrapper {
+  pointer-events: none;
+}
+
+.invitation .invitation_wrap .invitation_header {
+  height: 50px;
+  background-color: rgb(163, 163, 187);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  line-height: 25px;
+}
+
+.invitation
+  .invitation_wrap
+  .invitation_header
+  .invitation_header_left
+  .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.invitation
+  .invitation_wrap
+  .invitation_header
+  .invitation_header_left
+  .invitation_confirmation {
+  color: #1a1a86;
+}
+
+.invitation .invitation_wrap .invitation_header .invitation_header_right {
+  background-color: silver;
+  border-radius: 5px;
+}
+
+.invitation
+  .invitation_wrap
+  .invitation_header
+  .invitation_header_right
+  .MuiSvgIcon-root {
+  margin: 2px;
+  cursor: pointer;
+}
+
+.invitation
+  .invitation_wrap
+  .invitation_header
+  .invitation_header_right
+  .invitation_header_right_delete:hover {
+  color: red;
+}
+
+.invitation
+  .invitation_wrap
+  .invitation_header
+  .invitation_header_right
+  .invitation_header_right_edit:hover {
+  color: rgb(12, 29, 184);
+}
+
+.invitation .invitation_wrap .invitation_body {
+  padding: 10px 15px;
+}
+
+.invitation .invitation_wrap .invitation_body span {
+  float: right;
+  padding: 2px 15px;
+  color: white;
+}
+
+.invitation .invitation_wrap .invitation_body span.vegDiet {
+  background-color: green;
+}
+
+.invitation .invitation_wrap .invitation_body span.non-VegDiet {
+  background-color: red;
+}
+
+.invitation .invitation_wrap .invitation_body .invitation_body_main {
+  margin-top: 50px;
+}
+
+.invitation .invitation_wrap .invitation_body .invitation_body_main h2 {
+  font-size: 25px;
+}

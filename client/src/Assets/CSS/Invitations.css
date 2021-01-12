@@ -1,0 +1,8 @@
+.invitations {
+  padding-top: 75px;
+}
+
+.invitations .invitations_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}

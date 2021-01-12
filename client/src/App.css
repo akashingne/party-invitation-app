@@ -1,0 +1,25 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-bark.fixed-top {
+  background: #1a1a86;
+}
+
+div#basic-navbar-nav {
+  justify-content: inherit;
+}
+
+div#basic-navbar-nav a {
+  text-decoration: none;
+}
+
+div#basic-navbar-nav .MuiIconButton-root {
+  color: #fff;
+  outline: none;
+  margin-left: 20px;
+}
+
+div#basic-navbar-nav .navUser span {
+  color: #fff;
+}
+
+div.errorMessage span {
+  color: red;
+}
